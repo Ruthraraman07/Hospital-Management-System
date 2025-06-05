@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment Booking</title>
+    <link rel="stylesheet" href="appointment.css">
+</head>
+<body>
+    <section class="appointment-section">
+        <div class="container">
+            <div class="appointment-form">
+                <h2>Book An Appointment</h2>
+                <form>
+                    <div class="form-row">
+                        <input type="text" placeholder="Name" required>
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-row">
+                        <input type="tel" placeholder="Phone" required>
+                        <select>
+                            <option value="">Department</option>
+                            <option value="cardiology">Cardiology</option>
+                            <option value="neurology">Neurology</option>
+                            <option value="orthopedics">Orthopedics</option>
+                        </select>
+                    </div>
+                    <div class="form-row">
+                        <select>
+                            <option value="">Doctor</option>
+                            <option value="dr-smith">Dr. Smith</option>
+                            <option value="dr-jones">Dr. Jones</option>
+                        </select>
+                        <input type="date" required>
+                    </div>
+                    <textarea placeholder="Write Your Message Here....." rows="4"></textarea>
+                    <button type="submit" class="btn-primary">Book An Appointment</button>
+                    <p class="confirmation-note">(We will confirm by a Text Message)</p>
+                </form>
+            </div>
+            <div class="appointment-image">
+                <img src="img/ap3.jpg" alt="Doctors">
+            </div>
+        </div>
+    </section>
+</body>
+</html>

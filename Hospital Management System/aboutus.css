@@ -1,0 +1,131 @@
+/* General Reset and Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* About Us Section Styling */
+  .about-us-section {
+    background-color: #fff;
+    padding: 60px;
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeInUp 1s ease-out forwards;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .about-us-section h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+    animation: slideInLeft 1s ease-out forwards;
+  }
+  
+  @keyframes slideInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .about-us-section h3 {
+    font-size: 24px;
+    color: #4CAF50;
+    margin-top: 25px;
+    animation: fadeInUp 1.2s ease-out forwards;
+  }
+  
+  .about-us-section p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    opacity: 0;
+    animation: fadeInUp 1.5s ease-out forwards;
+  }
+  
+  .about-us-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .about-us-section ul li {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+    opacity: 0;
+    animation: fadeInUp 1.8s ease-out forwards;
+  }
+  
+  .about-us-section ul li strong {
+    color: #4CAF50;
+  }
+  
+  .about-us-section ul li:nth-child(1) {
+    animation-delay: 0.5s;
+  }
+  
+  .about-us-section ul li:nth-child(2) {
+    animation-delay: 1s;
+  }
+  
+  .about-us-section ul li:nth-child(3) {
+    animation-delay: 1.5s;
+  }
+  
+  /* Hover Effects for List Items */
+  .about-us-section ul li:hover {
+    background-color: #f1f1f1;
+    padding-left: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .about-us-section {
+      padding: 40px 20px;
+    }
+  
+    .about-us-section h2 {
+      font-size: 30px;
+    }
+  
+    .about-us-section h3 {
+      font-size: 20px;
+    }
+  
+    .about-us-section p {
+      font-size: 16px;
+    }
+  
+    .about-us-section ul li {
+      font-size: 16px;
+    }
+  }
+  

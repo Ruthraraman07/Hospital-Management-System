@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Management System - Login & Signup</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container" id="loginPage">
+        <h2>Login</h2>
+        <input type="text" class="input-field" placeholder="Username">
+        <div class="password-container">
+            <input type="password" class="input-field" id="loginPassword" placeholder="Password">
+            <span class="toggle-password" onclick="togglePassword('loginPassword')"></span>
+        </div>
+        <button class="btn">Login</button>
+        <span class="link" onclick="showSignup()">Sign Up</span>
+        <span class="link" onclick="showForgotPassword()">Forgot Password?</span>
+    </div>
+
+    <div class="container hidden" id="signupPage">
+        <h2>Sign Up</h2>
+        <input type="text" class="input-field" placeholder="Full Name">
+        <input type="email" class="input-field" placeholder="Email">
+        <input type="text" class="input-field" placeholder="Phone Number">
+        <input type="text" class="input-field" placeholder="Username">
+        <div class="password-container">
+            <input type="password" class="input-field" id="signupPassword" placeholder="Password">
+            <span class="toggle-password" onclick="togglePassword('signupPassword')"></span>
+        </div>
+        <div class="password-container">
+            <input type="password" class="input-field" id="confirmPassword" placeholder="Confirm Password">
+            <span class="toggle-password" onclick="togglePassword('confirmPassword')"></span>
+        </div>
+        <button class="btn">Sign Up</button>
+        <span class="link" onclick="showLogin()">Already have an account? Login</span>
+    </div>
+
+    <div class="container hidden" id="forgotPasswordPage">
+        <h2>Forgot Password</h2>
+        <input type="email" class="input-field" placeholder="Enter your email">
+        <button class="btn">Reset Password</button>
+        <span class="link" onclick="showLogin()">Back to Login</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+/* Make the header sticky */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #fff; /* Ensure the background stays visible */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: add shadow for better visibility */
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.contact-info span {
+    margin-right: 20px;
+}
+
+.appointment-btn a {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.appointment-btn a:hover {
+    background-color: #0056b3;
+  }
+
+.cta-buttons {
+    margin-top: 20px;
+}
+
+.cta-buttons a {
+    margin-right: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+.btn-secondary {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+.logo h1 {
+    color: #b30309;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+/* Style the logo image */
+.logo1 img {
+    width: 170px;
+    height: 55px;
+    border-radius: 50%;
+  }
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-left: 25px;
+    font-size: 18px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+   
+}
+
+.appointment-btn1{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;   
+}
+
+.menu li a:hover{
+    color:  #007bff;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #f8f9fa;
+    align-items: center;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    animation: fadeInDown 1.5s ease
+}
+
+.hero-text span {
+    color:#2e1559;
+}
+
+/* For the hero image */
+.hero-image img {
+    width: 100%;  /* Adjust to fit the parent container */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 500px; /* Set a maximum width for the hero image */
+    background-color: transparent; /* Keep the background transparent */
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #343a40;
+    color: #fff;
+    margin-top: 20px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
