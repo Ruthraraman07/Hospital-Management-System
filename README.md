@@ -31,7 +31,7 @@ https://getshared.com/ecc2yoqT
 ### 3.	Appointment page interface:
    ![image](https://github.com/user-attachments/assets/aa740167-60f7-4db4-8ab7-b1730f052ec0)
 ### 4.	Doctors details page interface:
-   ![image](https://github.com/user-attachments/assets/605ea28b-e02d-4802-ae40-2884a4c532d4)
+   ![image](https://github.com/user-attachments/assets/4dc806e7-d193-4725-97b2-c3ef4e816b23)
 ### 5.	Gallery page interface:
    ![image](https://github.com/user-attachments/assets/df76b2b8-6364-440c-9d51-d6322d0b4155)
 ### 6.	Feedbacks page interface:
